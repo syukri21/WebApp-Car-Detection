@@ -1,5 +1,5 @@
 # 🚗 🚕 🚙 WebApps Car Detection
-#### This supposed to be Homework from Collage. Simply a website that can predict a car by using video or image using Yolo Algorithm
+#### This supposed to be Homework from Collage. Simply a website that can predict a car from video or image by using Yolo Algorithm
 
 ### Built With
 <p align="left"> 
@@ -14,7 +14,7 @@ install python
 install pip
 download yolo4.weights save to ./dnn_model/yolo4.weights
 ```
--- for yolo4.weights reach me for that or wait this Readme Update 🤣🤣🤣
+###### for yolo4.weights reach me for that or get from internet. iam too lazy to upload it 🤣🤣🤣
 
 ### How to install
 ```bash
