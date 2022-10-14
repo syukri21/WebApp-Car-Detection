@@ -6,7 +6,6 @@ from flask import render_template, request, flash, redirect, session, Blueprint
 from werkzeug.utils import secure_filename
 from vehicle_detector import VehicleDetector
 
-
 # Load Veichle Detector
 ALLOWED_EXTENSIONS = ["jpg", "jpeg", "png"]
 
@@ -74,6 +73,7 @@ def video():
         # print('upload_video filename: ' + filename)
         os.system("python3 %s" % "vehicle_video_count.py")
         return redirect("/")
+
 
 def allowed_file(filename):
     return '.' in filename and \
