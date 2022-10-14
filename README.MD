@@ -8,13 +8,27 @@
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> 
 </p>
 
+### Prerequisites
+``` 
+install python
+install pip
+download yolo4.weights save to ./dnn_model/yolo4.weights
+```
+-- for yolo4.weights reach me for that or wait this Readme Update 🤣🤣🤣
+
+### How to install
+```bash
+pip install requirements.txt 
+```
+### How to run
+```bash
+flask --app app_runner run
+```
+
 ### What it looks like
 ![alt text](https://github.com/syukri21/WebApp-Car-Detection/blob/main/ui.png?raw=true)
 
 
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 
